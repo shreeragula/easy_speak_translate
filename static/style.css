@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../static/video3.mp4") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #040316;
+    border-radius: 10px;
+}
+
+textarea, select, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: rgb(101, 101, 201);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
