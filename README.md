@@ -33,7 +33,6 @@ Follow these steps to set up the project locally:
    ```bash
    python app.py
    ```
-   The application will be available at `http://127.0.0.1:5000/`
 
 ## 📂 Project Structure
 ```
